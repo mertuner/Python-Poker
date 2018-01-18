@@ -64,15 +64,13 @@ class Deck():
 
 
     def showd(self):
-        #for c in self.cards:
-         #  print(c)
-
+        # Number of cards in the deck
         print(len(self.cards))
 
         
 
     def shuffledeck(self):
-
+           #Shuffling the deck
         random.shuffle(self.cards)
 
     def drawcard(self):
