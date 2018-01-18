@@ -1,7 +1,7 @@
 import random
 
 class Card:
-    #
+    # Creating Card class with bunch of Python Magic Methods.
     def __init__(self, suit, val):
         self.suit = suit
         self.value = val
