@@ -140,9 +140,9 @@ class Poker():
     def card_ranks(self, hand):
         self.ranks = [i for i in hand]
         self.ranks.sort(reverse=True)
-        #print(self.ranks)
-        return [5,4,3,2,1] if (max(self.ranks) - min(self.ranks) == 9 and len(set(self.ranks)) == 5 and str(max(self.ranks))[1] == 'A') else self.ranks
-        #return self.ranks
+        return [5,4,3,2,1] if (max(self.ranks) - min(self.ranks) == 9 and len(set(self.ranks)) == 5 and str(max(self.ranks))[1] == 'A') 
+        else self.ranks
+        
 
     def straight(self, ranks):
         self.ranks = ranks
